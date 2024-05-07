@@ -2,7 +2,7 @@
 
 namespace Loevgaard\Trustpilot;
 
-use Goutte\Client;
+use Symfony\Component\BrowserKit\HttpBrowser as Client;
 use Loevgaard\Trustpilot\Review\Review;
 use Loevgaard\Trustpilot\Review\User;
 use Symfony\Component\DomCrawler\Crawler;
